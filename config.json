@@ -1,0 +1,64 @@
+{
+  "useTemplate": true,
+  "template": "cw20/base",
+  "name": "amg-lp",
+  "developer": {
+    "archwayd": {
+      "docker": false
+    },
+    "deployments": [
+      {
+        "project": "amg-lp",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "DE12F3DF870A581BBF958392367EE89CB1F6667C4EED3D3FAA3ECADD014B020C",
+        "address": "archway1zh2ct8u7h3ktng9g0224pe5l7q6kts07nmytytf2agtc0t8elqnsfn5lam",
+        "admin": "archway1wdydvakqzs4f5czdfxusxxdkjj99yykw0e0lf3"
+      },
+      {
+        "project": "amg-lp",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "5FA8B75628E38419BC5908C5CE9ACAB5314F9C3E166EEE88D5F857FC2ECD6950"
+      }
+    ],
+    "scripts": {
+      "test": "cargo unit-test",
+      "build": "cargo build",
+      "optimize": "cargo run-script optimize",
+      "wasm": "cargo wasm",
+      "query": "archwayd query wasm",
+      "tx": "archwayd tx wasm execute"
+    }
+  },
+  "network": {
+    "name": "constantine",
+    "chainId": "constantine-2",
+    "type": "testnet",
+    "fees": {
+      "feeDenom": "uconst"
+    },
+    "gas": {
+      "prices": "0.002uconst",
+      "mode": "auto",
+      "adjustment": "1.5"
+    },
+    "wasm": {
+      "bech32Hrp": "archway",
+      "archwayd": "0.1.0",
+      "configDir": ".archway",
+      "binary": "archwayd"
+    },
+    "urls": {
+      "rpc": {
+        "url": "https://rpc.constantine-2.archway.tech",
+        "port": 443
+      },
+      "faucets": [
+        "https://faucet.constantine-2.archway.tech"
+      ]
+    }
+  }
+}
