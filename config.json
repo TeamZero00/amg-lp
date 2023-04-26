@@ -9,6 +9,74 @@
     "deployments": [
       {
         "project": "amg-lp",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 571,
+        "txhash": "82ADF4504F8B045E070D171D4386FFBAF94A5D73EF6A5A7E3997B6AA16D9B8BB"
+      },
+      {
+        "project": "amg-lp",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 403,
+        "txhash": "4320881A6EC983ECD629395D2A367ABEB64EECEDD7880DE035D1BED29E286759"
+      },
+      {
+        "project": "amg-lp",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "11C54EB281512B8187B03A8B95A5D5166162DF33929DFF4FDC6C645CDE39C99D",
+        "address": "archway16zu96lmvyumlar00df5vn7yh98d9rxdkvtrgfxk7mra8lzhzh2xqvkhwta",
+        "admin": "archway17ppdxcezcu8rgzfvumralsk9x9hxj59x50wu5j"
+      },
+      {
+        "project": "amg-lp",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "8DE3C245E7FE0E0457AF89ECD3E519B89A38E19915DDC73EB066A8D6D720BCE3",
+        "address": "archway1d0s2gdlqndyggcyc46pxuygdr67mw7slmjvhrd7q8rxucyznyulq5ssx36",
+        "admin": "archway17ppdxcezcu8rgzfvumralsk9x9hxj59x50wu5j"
+      },
+      {
+        "project": "amg-lp",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "30518C86EB730865FF853565B3E1BEA6284577B79E7F9863855664F040095F33",
+        "address": "archway1s5k9klljq2fwqat2ah85059j2wk7pl3vvzjvnqcvqpectqu297usrjp39j",
+        "admin": "archway17ppdxcezcu8rgzfvumralsk9x9hxj59x50wu5j"
+      },
+      {
+        "project": "amg-lp",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "A53E3AB1FFCBAD88F9807DCA245A48137D669F4C2F3784929AF0279C3336F8B7",
+        "address": "archway1g7x09tru7rvdptr9exrf5ega6k4pkkrwpkn6pc03qyx89xdd6anqcnmyzy",
+        "admin": "archway1382j5acdluf577666xr74e9h66ksyhddyjm9am"
+      },
+      {
+        "project": "amg-lp",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "B602747B8488FC1EB08EABAD4105219EAFD8A42067D65F3A4967DA69EDBA11CB",
+        "address": "archway1pxe5kp9sszsxgke6mltfzyjd0plpptd2cdr8xsazgr72aw6hp44s8hpqfa",
+        "admin": "archway1382j5acdluf577666xr74e9h66ksyhddyjm9am"
+      },
+      {
+        "project": "amg-lp",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 380,
+        "txhash": "5FE1A77563F7F4A7791EBBB390E14C825C417E0B757DADFD1C99A58E97D80319",
+        "address": "archway1x4ynfellfmhpshz50lgs48gdfaxhkl4qvx84x7dd7yrgrw5vcyqs9t0xs9",
+        "admin": "archway1wdydvakqzs4f5czdfxusxxdkjj99yykw0e0lf3"
+      },
+      {
+        "project": "amg-lp",
         "type": "instantiate",
         "chainId": "constantine-2",
         "codeId": 380,
